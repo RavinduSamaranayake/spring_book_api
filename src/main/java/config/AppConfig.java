@@ -15,7 +15,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import static org.hibernate.cfg.Environment.*;
 
 
-//dn configurations using java instead of  xml
+//db configurations using java instead of  xml
 @Configuration
 @PropertySource("classpath:db.properties")
 @EnableTransactionManagement

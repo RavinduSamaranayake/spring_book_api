@@ -11,6 +11,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 @EnableWebMvc
 @ComponentScan(basePackages = { "controller" })
 
+//configurations using java instead of  xml
 //this is the web configuration
 public class WebConfig extends WebMvcConfigurerAdapter {
 

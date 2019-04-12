@@ -4,7 +4,7 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 
 import config.WebConfig;
 
-
+//configurations using java instead of  xml
 // this is the servelet initializer
 public class MyWebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
     //final class of spring and hybernate configuration
