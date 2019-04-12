@@ -16,6 +16,7 @@ import org.springframework.stereotype.Repository;
 import model.Book;
 
 //implements the database crud operations
+@Repository
 public class BookDaoImp implements BookDao {
 
     @Autowired
